@@ -1,0 +1,19 @@
+{
+    "name": "orchestraframework/queue",
+    "description": "Bee-queue (Redis, cross-language with Node.js bee-queue) wrapper for the Orchestra microservices framework.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["orchestra", "queue", "redis", "bee-queue", "jobs"],
+    "require": {
+        "php": "^8.3",
+        "g4t/laravel-bee-queue": "^0.0.5",
+        "orchestraframework/framework": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orchestra\\Queue\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
